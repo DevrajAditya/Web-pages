@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device=width, initial-scale=1.0">
+        <title> Institute Managment System </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" > <img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href=""> HOME</a></li>
+                    <li><a href=""> ABOUT</a></li>
+                    <li><a href=""> COURSE</a></li>
+                    <li><a href=""> BLOG</a></li>
+                    <li><a href=""> CONTACT</a></li>
+ 
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+<div class="text-box">
+    <h1> Institute Managment System</h1>
+    <p> Hi Their this is my first web site of using some technology like<br> HTML, CSS ,
+        java , Servlet , JSP , MySql and hibernate </p>
+        <a href="" class="hero-btn"> Click here to know more</a>
+
+</div>
+
+    </section>
+
+
+    <section class="cource">
+        <h1> Welcome to our cource Section </h1>
+        <p> we are offer so many cources so you can choose and <br> select the cource as you want to learn</p>
+        <div class="row">
+            <div class="cource-col">
+                <h3>Intermediate</h3>
+                <p>A dummy website is a website that holds dummy text, images,
+                     menus and other content,<br> which you can revamp for your actual website. <br>
+                     allows you to plan the layout of your website and reuse it
+
+                </p>
+            </div>
+            <div class="cource-col">
+                <h3>Select Cource</h3>
+                <p>A dummy website is a website that holds dummy text, images,
+                     menus and other content,<br> which you can revamp for your actual website. <br>
+                     allows you to plan the layout of your website and reuse it
+
+                </p>
+            </div>
+            <div class="cource-col">
+                <h3>Batches</h3>
+                <p>A dummy website is a website that holds dummy text, images,
+                     menus and other content,<br> which you can revamp for your actual website. <br>
+                     allows you to plan the layout of your website and reuse it
+
+                </p>
+            </div>
+
+        </div>
+    
+    </section>
+
+    <section class="Campus">
+        <h1>Placement Patner</h1>
+        <p>A dummy website is a website that holds dummy text, images,
+            menus</p>
+        <div class="row">
+            <div class="Campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="Campus-col">
+                <img src="images/newyork.png">
+                 <div class="layer">
+                    <h3> NEWYORK  </h3>
+                </div>
+            </div>
+
+            <div class="Campus-col">
+                <img src="images/washington.png"> 
+                <div class="layer">
+                    <h3> WASHINGTON </h3>
+                </div>
+            </div>
+
+        </div>
+  </section>
+
+  <section class="facilities">
+    <h1> Facilities</h1> 
+    <p> hey there welcome to our facilities section </p>  
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3> Library</h3>
+            <p>which you can revamp for your actual website. <br>
+                allows you to plan the layout of your website and reuse it</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3> cafeteria</h3>
+            <p>which you can revamp for your actual website. <br>
+                allows you to plan the layout of your website and reuse it</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3> basketball</h3>
+            <p>which you can revamp for your actual website. <br>
+                allows you to plan the layout of your website and reuse it</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="testimonial">
+    <h1> What our Student Says</h1> 
+    <p> hey there welcome to our Testimonial section </p>  
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+            <p>which you can revamp for your actual website. very good morning
+                allows you to plan the layout of your website and reuse it</p>
+            <h3> honey </h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+    </div>
+
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+            <p>which you can revamp for your actual website. very good morning
+                allows you to plan the layout of your website and reuse it</p>
+            <h3> Lourence </h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            
+        </div>
+    </div>
+    </div>
+
+</section>
+<section class="cta">
+    <h1> Enroll for verious online cources <br>
+    Anywhere from the India</h1>
+  <a href="" class="hero-btn">CONTACT US</a> 
+
+</section>
+
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+
+    function hideMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function showMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+</body>
+
+</html>

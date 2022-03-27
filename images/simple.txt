@@ -1,0 +1,28 @@
+import java.io.*;
+public simple extends frame implements ActionListener
+{
+   Label lbl=new Label("Enter name:");
+   TextField txname=new TextField(10);
+    Button bttn=new Button("Click");
+    public simple
+   {
+    setLayout(NULL);
+    setSize(2100,1800);
+	lbl.setBackground(new Color(250,150,80));
+	txname.setFont(new Font("Monotype Corsiva",20));
+	add(lbl);
+	add(txname);
+	add(bttn);
+	bttn.addActionListener(this);
+	public void actionPerformed(ActionEvent e)
+	{
+		if(e.getSource()==bttn)
+		{
+			System.out.println(txtname.text);
+		}
+	}
+public static void main(String argv[])throws IOException
+{
+	simple obj=new simpple();
+}
+}
